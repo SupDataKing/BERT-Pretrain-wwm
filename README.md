@@ -2,6 +2,7 @@
 bert预训练，分别采用字mask和wwm mask在中文领域内finetune bert模型。
 
 核心模块：
+
     text = convert_to_unicode(text)
     output_tokens = []
     for token in whitespace_tokenize(text):
